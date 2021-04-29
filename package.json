@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "svg": "vsvg -s ./src/icons/svg -t ./src/icons/components --ext ts --es6"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -15,6 +16,7 @@
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
+    "vue-svgicon": "^3.2.9",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
