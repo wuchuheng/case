@@ -22,6 +22,10 @@ const routes: Array<RouteRecordRaw> = [
       }
     ]
   },
+  {
+    path: '/admin/login',
+    component: import('../views/Admin/Login/index.vue')
+  }
 ]
 
 const router = createRouter({
