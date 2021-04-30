@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="headerWrapper">
-      <div class="title">- {{title}} -</div>
+      <div class="title bg-primary h-7 flex justify-center items-center"><div>- {{title}} -</div></div>
       <div class="actionWrapper">
         <button @click="handleShowDetail">
           <div> <div> 查看详情 </div> <div class="iconfont icon-right"></div> </div>
@@ -77,14 +77,11 @@ export default class ItemRender extends Vue {
     }
   }
   .title {
-    @include bg-red;
     @include p-0_5;
-    background: $themeColor;
     @include text-white;
     @include text-3;
     @include py-0_5;
     @include px-2;
-    @include h-2;
   }
 }
 

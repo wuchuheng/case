@@ -2,6 +2,9 @@
   <router-view/>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "./index";
 </style>
