@@ -1,8 +1,9 @@
+const fs = require('fs')
 const SQL = require('sequelize')
 const { Sequelize, Model, DataTypes } = require('sequelize');
 const sequelize = new Sequelize({
     dialect: 'sqlite',
-    storage: './store.sqlite',
+    storage: __dirname + '/store.sqlite',
     logging: false
 });
 
